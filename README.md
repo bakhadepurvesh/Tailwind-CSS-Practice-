@@ -1,16 +1,41 @@
-# React + Vite
+# 🎨 React + Vite + Tailwind CSS Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional practice repository focused on mastering utility-first styling using **Tailwind CSS** within a modern **React** and **Vite** development environment. 
 
-Currently, two official plugins are available:
+## 🚀 Features & Practice Milestones
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🏗️ **Modern Tooling:** Fast development and Hot Module Replacement (HMR) powered by Vite.
+* 🎨 **Core Styling:** Hand-on implementation of background colors, text colors, and font weights.
+* 📐 **Layout Basics:** Exploring padding (`p-*`), margins (`m-*`), and alignment helpers.
+* 📱 **State & Interaction:** Implementing pseudo-classes like `hover:` and responsive variations.
 
-## React Compiler
+## 🛠️ Project Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Follow these steps to run this project locally:
 
-## Expanding the ESLint configuration
+### 1. Clone the repository
+```bash
+git clone <your-repository-url>
+cd <repository-folder-name>
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the development server
+```bash
+npm run dev
+```
+
+## 📝 Tailwind CSS Implementation Notes
+
+* **Class Strings:** Always use complete, unbroken class names (e.g., `bg-blue-500`) instead of string interpolation (`bg-${color}-500`) to ensure the Tailwind compiler detects and generates the CSS.
+* **Component Attributes:** Remember to apply styling via the React `className="..."` attribute rather than the standard HTML `class`.
+
+## ⚙️ Core Configuration
+
+* **Bundler:** Vite 
+* **Framework:** React 19+
+* **Linter:** ESLint (recommended rules enabled)
