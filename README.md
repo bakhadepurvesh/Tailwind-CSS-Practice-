@@ -18,24 +18,18 @@ Follow these steps to run this project locally:
 git clone <your-repository-url>
 cd <repository-folder-name>
 ```
-
 ### 2. Install dependencies
 ```bash
 npm install
 ```
-
 ### 3. Start the development server
 ```bash
 npm run dev
 ```
-
 ## 📝 Tailwind CSS Implementation Notes
-
 * **Class Strings:** Always use complete, unbroken class names (e.g., `bg-blue-500`) instead of string interpolation (`bg-${color}-500`) to ensure the Tailwind compiler detects and generates the CSS.
 * **Component Attributes:** Remember to apply styling via the React `className="..."` attribute rather than the standard HTML `class`.
-
 ## ⚙️ Core Configuration
-
 * **Bundler:** Vite 
 * **Framework:** React 19+
 * **Linter:** ESLint (recommended rules enabled)
