@@ -1,14 +1,16 @@
 
 import './App.css'
-import Card from './HomeWork/Card'
-import UtilityClasses from './components/UtilityClasses'
+// import Card from './HomeWork/Card'
+import CardsContainer from './HomeWork/CardsContainer'
+// import UtilityClasses from './components/UtilityClasses'
 
 function App() {
   
   return (
      <>
-    <UtilityClasses />
-    <Card />
+    {/* <UtilityClasses />
+    <Card /> */}
+    <CardsContainer />
     </>
   )
 }
