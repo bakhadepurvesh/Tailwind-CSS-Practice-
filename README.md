@@ -33,4 +33,3 @@ npm run dev
 * **Bundler:** Vite 
 * **Framework:** React 19+
 * **Linter:** ESLint (recommended rules enabled)
-
